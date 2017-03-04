@@ -4,11 +4,13 @@
   "description": "This project follows the Lynda.com course: [Learn Full Stack JavaScript] (https://www.lynda.com/Express-js-tutorials/Course-overview/533304/557601-4.html?autoplay=true)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel-node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^2.5.6",
     "express": "^4.14.1",
     "mongodb": "^2.2.24",
     "react": "^15.4.2",
