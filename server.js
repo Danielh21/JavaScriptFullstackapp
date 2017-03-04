@@ -1,7 +1,6 @@
 
 import config from './config';
 import express from 'express';
-import fs from "fs";
 import apiRouter from "./api";
 
 
